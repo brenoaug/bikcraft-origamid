@@ -1,0 +1,25 @@
+body{
+    background-color: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    display: grid;
+    gap: 60px;
+    justify-items: center;
+}
+
+.Logo {
+    padding-top: 60px;
+    display: block;
+    padding-bottom: 20px;
+    align-content: center;
+}
+
+.Menu a {
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+    margin: 20px;
+    padding: 14px;
+    border-radius: 4px;
+    display: inline;
+}
