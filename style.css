@@ -1,44 +1,68 @@
-body{
-    background-color: #f7f7f7;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    display: grid;
-    gap: 60px;
-    justify-items: center;
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  display: grid;
+  gap: 20px;
+  justify-items: center;
 }
 
-div{
-    background-color: #fff;
+div {
+  background-color: #fff;
 }
 
 .Logo {
-    padding-top: 60px;
-    display: block;
-    padding-bottom: 20px;
-    align-content: center;
-    background-color: transparent;
+  padding-top: 60px;
+  display: block;
+  padding-bottom: 20px;
+  align-content: center;
+  background-color: transparent;
 }
 
-.Menu{
-    background-color: transparent;
+
+.Menu {
+  background-color: transparent;
 }
 
 .Menu a {
-    text-decoration: none;
-    background-color: #fff;
-    color: black;
-    margin: 20px;
-    padding: 14px;
-    border-radius: 4px;
-    display: inline;
+  text-decoration: none;
+  background-color: #fff;
+  color: black;
+  margin: 20px;
+  padding: 14px;
+  border-radius: 4px;
+  display: inline;
 }
 
+.ConteudoPrincipal {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px 20px;
+    margin: 80px;
+  }
 
+img{
+    max-width: 100%;
+}
+
+.Introducao {
+  display: grid;
+  place-items: end;
+}
+
+.Introducao h1{
+    text-align: left;
+}
+
+.Introducao p{
+    text-align: end;
+}
 
 .Introducao a {
-    text-decoration: none;
-    background-color: #ee2211;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 4px;
+  text-decoration: none;
+  background-color: #ee2211;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  place-self: end;
 }
