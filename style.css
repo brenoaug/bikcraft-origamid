@@ -7,17 +7,16 @@ body {
   justify-items: center;
 }
 
-div {
-  background-color: #fff;
+
+p,
+h1,
+h2 {
+  margin: 0px;
 }
 
-p, h1, h2{
-    margin: 0px;
-}
-
-p{
-    font-size: 20px;
-    line-height: 1.3;
+p {
+  font-size: 20px;
+  line-height: 1.3;
 }
 
 .Logo {
@@ -28,9 +27,7 @@ p{
   background-color: transparent;
 }
 
-
 .Menu {
-  background-color: transparent;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -47,29 +44,32 @@ p{
 }
 
 .ConteudoPrincipal {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    gap: 20px 20px;
-    max-width: 1000px;
-  }
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  max-width: 1000px;
+}
 
-img{
-    max-width: 100%;
-    display: block;
+img {
+  max-width: 100%;
+  display: block;
 }
 
 .Introducao {
   display: grid;
   text-align: right;
   padding: 40px;
+  position: relative;
+  align-content: center;
+  gap: 20px;
+  background-color: #fff;
 }
 
-.Introducao h1{
-    text-align: right;
+.Introducao h1 {
+  text-align: right;
 }
 
-.Introducao p{
-    text-align: end;
+.Introducao p {
+  text-align: right;
 }
 
 .Introducao a {
@@ -83,9 +83,45 @@ img{
 }
 
 .detalhe {
-    height: 4px;
-    width: 60px;
-    color: #ee2211;
-    display: inline-block;
-    position: absolute;
+  height: 4px;
+  width: 60px;
+  background-color: #ee2211;
+  position: absolute;
+  right: -30px;
+  top: 30px;
+}
+
+.VantagensTitulo {
+  font-size: 64px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0, 0.2);
+  text-align: right;
+  padding: 40px;
+  background-color: #f7f7f7;
+  align-self: center;
+  max-width: 100%;
+}
+
+.Vantagens {
+  padding: 40px;
+  background-color: #fff;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+}
+
+.items p{
+    grid-column: 2;
+}
+
+.rodape {
+    background-color: #fff;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
 }
