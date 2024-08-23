@@ -27,10 +27,14 @@ p {
   background-color: transparent;
 }
 
-.Menu {
+.Menu ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+li{
+    list-style-type: none;
 }
 
 .Menu a {
